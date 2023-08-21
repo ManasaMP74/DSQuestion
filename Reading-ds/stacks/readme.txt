@@ -1,0 +1,9 @@
+- Last In First Out 
+- if we want to do any logic with respect to next values then use stack
+- to check next greater element use stack always
+- Browsers use the stack data structure to keep track of the last visited sites.
+- Undo/Redo stacks in Excel or Word.
+- Stack is also used in some scheduling algorithms.
+- Stacks are also used for evaluating expressions.
+- In stacks, memory can be dynamically allocated, that is, we can allocate memory to a particular object on runtime. 
+- if we need to keep the values of all the data from being to end and calculate the result at last then we need to use the stack

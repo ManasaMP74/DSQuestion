@@ -1,0 +1,47 @@
+Types of Linked Lists
+1. Singly Linked List
+2. Doubly Linked List 
+3. Skip List
+4. XOR Linked List
+5. Circular Linked List
+
+
+ - linked list is a recursive data structure
+
+- Time Complexity: The traversal of the linked list is O(n) since the list is traversed only once.
+
+- Space Complexity: Due to the recursive nature of the function call stack, the space complexity is O(n).
+
+- When we use two pointer fast and slow in ll. If linked list is odd number then fast.next will be nil and fast will have value. If linked list is even number then fast and fast next will be nil. 
+
+- Can we reverse a linked list in less than O(n) - Single linked list can't be reversed with 0(n) but doubly linked list can be reversed
+
+
+- while adding two number. Take carry = value/10, save in list node = value%10
+
+- while subtracting take barrow if value is less. Add 10 with current value
+
+- List Intersection and Union: These problems involve finding the intersection or union of two linked lists. Intersection refers to finding the common elements between two lists, while union refers to combining the elements of two lists without duplication. - use hashMap to keep track of elements which we already visited
+
+- XOR LL is one which is used for memory efficiency where next and previous node are stored as one pointer with xor operation
+
+- to get previous address, NPX(Cur) xor address(cur.next)
+
+- to get next address, NPX(Cur) xor address(cur.prev)
+
+
+Why is merge sort a better option than quicksort for linked lists?
+1. When it comes to linked lists, there are a few things to keep in mind. The issue is unique due to the memory allocation differences between arrays and linked lists. Unlike arrays, linked list nodes in memory may not be adjacent.
+2. We can insert items in the middle of a linked list in O(1) extra space and O(1) time if we are given a reference/pointer to the previous node, unlike an array. As a result, the merge sort operation can be accomplished without the need for additional linked list space.
+3. We can do random access in arrays since the elements are continuous in memory. In contrast to arrays, we can't access a linked list at random.
+4. Quick Sort necessitates a great deal of this type of access. Because we don't have a continuous block of memory, we have to travel from the head to the i'th node to get to the i'th index in a linked list. Merge sort accesses data in a sequential manner, with less requirement for random access.
+
+
+Insertion sort on Linked List
+- have two loops for linked list for every node check the next element which is less or greater than the current element and insert new element in the list
+
+-A skip list is a data structure that allows for efficient search, insertion and deletion of elements in a sorted list. It is a probabilistic data structure, meaning that its average time complexity is determined through a probabilistic analysis.
+
+-Skip lists have an average time complexity of O(log n) for search, insertion and deletion, which is similar to that of balanced tree
+
+

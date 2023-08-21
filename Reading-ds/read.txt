@@ -1,0 +1,28 @@
+1. Kth algorithm - using heap
+2. Sliding window algorithm - using Hash
+3. Backtracking - tree - recursion
+4. Dynamic programming
+5. BFS -implemented using queue and DFS - is implemented using stack
+6. Heap max heap and min heap - This is implemented using array - this is partially sorted - children at root node n is 2n+1, 2n+2 any array can be converted into heap using heaping method
+8. Heap is used in yea-sort, Dijkstra's also, median maintenance of cream, priority queue need a quick access we use heap
+7. Binary tree - Database indexing, Decision tree and sorting algorithm - It's used in recurssion,  traversal
+8. Hash map and hash set
+9. Stacks, queue
+10. Graphs - Graph search - DFS, BFS, Dijkstra, topological, loop in graph
+Bellman-ford, Floyd, warshall  algo
+
+
+
+
+
+
+
+
+
+- https://leetcode.com/problems/frog-position-after-t-seconds/
+- leetcode 2493 Divide Nodes Into the Maximum Number of Groups
+- LeetCode 1803. Count Pairs With XOR in a Range
+- k divisible elements subarrays
+- Maximum Sum Of Two Non Overlapping Subarrays
+- maximum genetic difference query
+- https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/

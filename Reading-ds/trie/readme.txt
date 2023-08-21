@@ -1,0 +1,3 @@
+- Trie data structure, can we use to efficiently check if substrings are present in the string.
+- trie works with suffix and prefix
+- trie data structure mainly used for strings
